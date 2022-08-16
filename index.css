@@ -1,0 +1,45 @@
+body{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0)
+} 
+
+
+.container{
+    height: 100%;
+}
+
+
+.inventory {
+    width: 580px;
+    height: 520px;
+    background: rgba(32, 26, 26, 0.8);
+    border-radius: 4px;
+    box-shadow: 0px 0px 28px 10px rgba(0,0,0,0.25);
+}
+
+.inventory-objects {
+    display: flex;
+    margin-left: 18px;
+}
+
+
+.inventory-slot {
+    margin: 10px 30px 10px 10px;
+    border-radius: 4px;
+    background-color: rgb(48, 48, 48);
+    width: 70px;
+    height: 70px;
+    box-shadow: 0px 0px 28px 10px rgba(0,0,0,0.25);
+}
+
+
+.inventory-slot h6 {
+    color: aliceblue;
+    font-family: Cambria, Cochin, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+
+
